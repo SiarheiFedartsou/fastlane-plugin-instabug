@@ -20,7 +20,9 @@ Uploads dSYM to [Instabug](https://instabug.com/)
 
 ```ruby
 instabug(api_token: 'INSTABUG_TOKEN',
-         dsym_path: '/path/to/dsym') # if dsym_path or dsym_zip_path will not be provided, that instabug will try to find path to dSYM in lane_context by DSYM_ZIP_PATH key(which produced by dsym_zip action)
+# if dsym_path or dsym_zip_path will not be provided, then instabug will try to find path to dSYM 
+# in lane_context by DSYM_ZIP_PATH key(which produced by dsym_zip action)
+         dsym_path: '/path/to/dsym') 
 ```
 
 For more information see `fastlane action instabug`.
