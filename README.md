@@ -1,4 +1,4 @@
-# instabug plugin
+# [Instabug](https://instabug.com/) plugin
 [![CI Status](http://img.shields.io/travis/SiarheiFedartsou/fastlane-plugin-instabug.svg?style=flat)](https://travis-ci.org/SiarheiFedartsou/fastlane-plugin-instabug)
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-instabug)
 
