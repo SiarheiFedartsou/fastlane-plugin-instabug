@@ -14,8 +14,6 @@ fastlane add_plugin instabug
 
 Uploads dSYM to [Instabug](https://instabug.com/)
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
-
 ## Actions
 
 ### instabug
