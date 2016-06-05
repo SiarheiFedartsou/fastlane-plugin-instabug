@@ -25,10 +25,10 @@ module Fastlane
         return command if Helper.test?
 
         result = Actions.sh(command)
-        if result == 200
+        if result == "200"
           UI.success 'dSYM is successfully uploaded to Instabug 🤖'
         else
-          UI.error 'Something went wrong during Instabug dSYM upload'
+          UI.error "Something went wrong during Instabug dSYM upload. Status code is #{result}"
         end
       end
 
