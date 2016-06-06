@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fastlane-plugin-instabug (0.1.0)
+    fastlane-plugin-instabug (0.2)
 
 GEM
   remote: https://rubygems.org/
