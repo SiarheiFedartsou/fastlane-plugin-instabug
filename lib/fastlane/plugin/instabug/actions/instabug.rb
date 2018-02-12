@@ -11,9 +11,9 @@ module Fastlane
           dsym_zip_path = ZipAction.run(path: dsym_path).shellescape
         end
 
-        endpoint = 'https://api.instabug.com/api/ios/v1/dsym'
+        endpoint = 'https://api.instabug.com/api/sdk/v3/symbols_files'
 
-        command =  "curl #{endpoint} --write-out %{http_code} --silent --output /dev/null -F dsym=@\"#{dsym_zip_path}\" -F token=\"#{api_token}\""
+        command =  "curl #{endpoint} --write-out %{http_code} --silent --output /dev/null -F dsym=@\"#{dsym_zip_path}\" -F application_token=\"#{api_token}\""
 
         UI.verbose command
 
